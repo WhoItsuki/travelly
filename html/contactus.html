@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="index.html">Travelly</a>
+            <nav class="site-nav">
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="booking.html">Booking</a>
+                <a href="contactus.html">Contact</a>
+            </nav>
+        </header>
+
+        <main class="form-content" style="gap:2.25rem;">
+            <div class="form-shell">
+                <h1>Contact support</h1>
+                <p>Send a message and we will respond as soon as possible.</p>
+                <div class="form-field">
+                    <label for="contact-name">Full Name</label>
+                    <input type="text" id="contact-name" name="contact-name" placeholder="Jane Doe">
+                </div>
+                <div class="form-field">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="contact-email" placeholder="jane@example.com">
+                </div>
+                <div class="form-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="How can we help?"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="button" onclick="book()" >Send message</button>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="signup.html">Sign Up</a>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-+e8gO0IMAQ0Eq1PMQnKDmTGHU6Q2LvH1Z8P2mM5JxJs=" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/contactus.js"></script>
+</body>
+</html>

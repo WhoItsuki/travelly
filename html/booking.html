@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="index.html">Travelly</a>
+            <nav class="site-nav">
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="contactus.html">Contact</a>
+            </nav>
+        </header>
+
+        <main class="form-content">
+            <div class="form-shell">
+                <h1>Book your trip</h1>
+                <p>Quickly reserve a flight, hotel, or package with a mobile-friendly booking form.</p>
+                <div class="form-field">
+                    <label for="destination">Destination</label>
+                    <input type="text" id="destination" name="destination" placeholder="City or airport">
+                </div>
+                <div class="form-field">
+                    <label for="checkin">Check-in</label>
+                    <input type="date" id="checkin" name="checkin">
+                </div>
+                <div class="form-field">
+                    <label for="checkout">Check-out</label>
+                    <input type="date" id="checkout" name="checkout">
+                </div>
+                <div class="form-field">
+                    <label for="travelers">Travelers</label>
+                    <select id="travelers" name="travelers">
+                        <option>1 traveler</option>
+                        <option>2 travelers</option>
+                        <option>3 travelers</option>
+                        <option>4+ travelers</option>
+                    </select>
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="button">Search availability</button>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <span>Designed to look great on desktop, tablet, and mobile.</span>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contactus.html">Contact</a>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-+e8gO0IMAQ0Eq1PMQnKDmTGHU6Q2LvH1Z8P2mM5JxJs=" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

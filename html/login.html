@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="index.html">Travelly</a>
+            <nav class="site-nav">
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="contactus.html">Contact</a>
+            </nav>
+        </header>
+
+        <main class="form-content">
+            <div class="form-shell">
+                <h1>Welcome back</h1>
+                <p>Login to access your bookings and manage your trips.</p>
+                <div class="form-field">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="username">
+                </div>
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="••••••••">
+                </div>
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="button" onclick="login()">Login</button>
+                    <a class="btn" href="signup.html">Create account</a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <span>Need help? Contact us anytime.</span>
+            <nav>
+                <a href="contactus.html">Contact</a>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-+e8gO0IMAQ0Eq1PMQnKDmTGHU6Q2LvH1Z8P2mM5JxJs=" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>
